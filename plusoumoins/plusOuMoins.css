@@ -1,0 +1,50 @@
+html{
+	width: 960px;
+	height: 100%;
+	margin: auto;
+}
+body{
+	background: url("cards.jpg");
+	background-repeat: repeat;
+}
+
+#intro{
+	text-align: center;
+	color: #0E0849;
+	margin: 10px;
+}
+#nbEssais{
+	font-size: 20px;
+	width: 200px;
+	background-color: white;
+	text-align: center;
+	margin: 10px;
+}
+
+
+
+#nbEntrer {
+	text-align: center;
+    margin: 200px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    
+}
+#bouton {
+	margin: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#reponse {
+	font-size: 25px;
+	background-color: #9BA2AA;
+	color: white;
+	text-align: center;
+	width: 600px;
+    border: 1px #000 solid;
+    margin : 175px;
+    line-height: 50px;
+    
+}
