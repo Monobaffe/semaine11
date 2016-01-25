@@ -249,7 +249,7 @@ function startGame(moove) {
 //fonction calcul taux de victoire.
 
 function calculTauxVictoire() {
-		humanWinRate = countPartie / countHumanScore;
+		humanWinRate = countHumanScore/countPartie*100 ;
 }
 
 //fonction affichage des scores.
