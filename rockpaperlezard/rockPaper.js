@@ -249,7 +249,7 @@ function startGame(moove) {
 //fonction calcul taux de victoire.
 
 function calculTauxVictoire() {
-		humanWinRate = countHumanScore/countPartie*100 ;
+		humanWinRate = Math.round(100/(countHumanScore + countIaScore + 0.00000001)*countHumanScore);
 }
 
 //fonction affichage des scores.
@@ -257,7 +257,10 @@ function calculTauxVictoire() {
 function affichageScoreGlobal() {
 	nbPartie.innerHTML = "Nombre de partie :" + " " + countPartie;
 	humanScore.innerHTML = "Votre score :" + " " + countHumanScore;
-	winRate.innerHTML = "Votre taux de victoire :" + " "  + humanWinRate + "%"; 
+	winRate.innerHTML = "Votre taux de victoire : " + " " + humanWinRate + "%"; 
 	scoreIA.innerHTML = "Score ordinateur :" + " " + countIaScore;
 	egalite.innerHTML = "Egalité :" + " " + countEgalite;
 }
+
+
+	
