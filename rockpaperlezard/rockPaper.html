@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang ="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="rockPaper.css">
+
+	<title>Rock-Paper-Scissor-Lezard-Spock.</title>
+
+</head>
+
+<body>
+	<h1>Pierre, Feuille, Papier, Ciseaux, Lézard, Spock .</h1>
+	<p>Règle du jeu via les liens --- <a href= "https://www.youtube.com/watch?v=llq528pnv9c" target="blank">Lien:YouTube</a>; <a href ="http://www.dailymotion.com/video/xb0eda_rock-paper-cisors-lezard-spock-by-f_fun" target="blank">Lien:DailyMotion</a> .</p>
+
+	<br>
+
+	<div id="rpslsChoix">
+		Votre choix:
+		<button id="rock" onclick="startGame('rock')">Pierre</button>
+		<button id="paper" onclick="startGame('paper')">Feuille</button>
+		<button id="scissors" onclick="startGame('scissors')">Ciseaux</button>
+		<button id="lizard" onclick="startGame('lizard')">Lézard</button>
+		<button id="spock" onclick="startGame('spock')">Spock</button>
+	</div>
+	<br><br>
+	<div id="rpsls">
+		<img src="images/rpsls0.jpg" alt="Pierre! Feuille! Ciseaux! Lezard! Spock!">
+	</div>
+
+	<br>
+
+	<div id="resultats">Résultat</div>
+
+	<div id="scoreGlobal">
+	<div id="nbPartie">Nombre de partie : 0</div>
+	<div id="humanScore">Votre score: 0</div>
+	<div id="winRate">Votre taux de victoire: 0</div>
+	<div id="scoreIA">Score ordinateur: 0</div>
+	<div id="egalite">Egalité: 0</div>
+
+	</div>
+
+<script type="text/javascript" src="rockPaper.js"></script>
+</body>
+
+</html>

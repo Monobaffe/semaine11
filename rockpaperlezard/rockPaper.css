@@ -1,0 +1,103 @@
+body{
+	width: 1900px;
+	height: 820px;
+}
+
+h1{
+	font-family: Serif;
+	height: 70px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 652px;
+}
+
+p{
+	background-color:#595959;
+	text-align: center;
+	font-size: 18px;
+	color: #8c97c7;
+	font-family: Lucida;
+	margin-left: auto;
+	margin-right: auto;
+	width: 470px;
+}
+a	{text-decoration: none;
+
+}
+a:link {
+	text-decoration: none;
+	color: #8c97c7
+}
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+ a:hover{
+	text-decoration: none; 
+	color: #8c97c7
+	
+}
+a:active {
+	text-decoration: none;
+	color: #CD0000;
+}
+
+#rpslsChoix {
+	width: 800px;
+	font-size: 20px;
+	height: 60px;
+	margin-left: 600px;
+	
+}
+button{
+	margin: 5px 5px 5px 5px;
+	cursor:pointer;
+}
+
+#rpsls{
+	width: 500px ;
+	height:500px;
+	margin-left: 660px;
+}
+
+#resultats{
+	font-size: 20px;
+	 height: 30px;
+    margin-left: 900px;
+    width: 800px;
+}
+
+#scoreGlobal{
+	width: 800px;
+	font-family: Impact;
+	margin-left: 620px;
+    margin-right: 570px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#humanScore{
+	float:left;
+	margin-right: 20px;
+}
+
+#winRate{
+	float: left;
+	margin-right: 20px;
+}
+
+#scoreIA{
+	float: left;
+	margin-right: 20px;
+}
+
+#egalite{
+	float: left;
+	margin-right: 20px;
+}
+
+#nbPartie{
+	float: left;
+	margin-right: 20px;
+}
