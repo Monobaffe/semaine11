@@ -3,4 +3,4 @@
 
 ajout du jeu du Plus ou du Moins <a href ="https://htmlpreview.github.io/?https://github.com/Monobaffe/semaine11/blob/master/plusoumoins/plusOuMoins.html" target ="blank">PlusOuMoins.</a>
 
-jeu du rock/paper/scissor/lezard/spocks <a href>RockPaperScissor... </a>
+jeu du rock/paper/scissor/lezard/spocks <a href="https://htmlpreview.github.io/?https://github.com/Monobaffe/semaine11/blob/master/rockpaperlezard/rockPaper.html" target="blank">RockPaperScissor... </a>
